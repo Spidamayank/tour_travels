@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
+    <title>Tour and Travel Website</title>
+</head>
+
+<body>
+    
+    
+    <div class="offers">
+        <h1 id="heading">Best tour Package offers for You</h1>
+        <p>choose your next destination</p>
+        <div class="cards">
+            <div class="card">
+                <h3>Lotus-Dehli</h3>
+                <div class="img_text">
+                    <img src="images/lotustemple.jpg" alt="">
+                    <h4>Inclded: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="">More Info</a>
+                            <h4>$2648</h4>
+                        </div>
+                    </div>
+                    <div class="dayes">5 Days <br> India</div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Burj Khalifa-DXB</h3>
+                <div class="img_text">
+                    <img src="images/burjkhlifa.jpg" alt="">
+                    <h4>Inclded: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="">More Info</a>
+                            <h4>$2648</h4>
+                        </div>
+                    </div>
+                    <div class="dayes">5 Days <br> Dubai</div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Piramids-Egypt</h3>
+                <div class="img_text">
+                    <img src="images/piramids.jpg" alt="">
+                    <h4>Inclded: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="">More Info</a>
+                            <h4>$2648</h4>
+                        </div>
+                    </div>
+                    <div class="dayes">7 Days <br> Egypt</div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Mountain-Vietnam</h3>
+                <div class="img_text">
+                    <img src="images/mountain.jpg" alt="">
+                    <h4>Inclded: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="">More Info</a>
+                            <h4>$2648</h4>
+                        </div>
+                    </div>
+                    <div class="dayes">7 Days <br> Veitna</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="destination">
+        <div class="des_bx">
+            <h4>Our Destination</h4>
+            <p>choose your next Destination</p>
+            <li>India</li>
+            <li>Dubai</li>
+            <li>USA</li>
+            <li>Vietnam</li>
+            <li>Russia</li>
+            <li>Brazil</li>
+            <h6>Included: Air ticket, Hotel, Breakfast, Tours, Airport transfer</h6>
+            <button>MORE INFO</button>
+        </div>
+        <div class="img_bx">
+            <img src="images/plane.jpg" alt="">
+            <div class="msg">
+                <img src="images/round flag.jpg" alt="">
+                <div class="cont">
+                    <h4>India</h4>
+                    <div class="icon">
+                        <i class="bi bi-heart-fill"><span>86415</span></i>
+                        <i class="bi bi-chat-fill"><span>4586</span></i>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                <img src="images/united-states.jpg" alt="">
+                <div class="cont">
+                    <h4>United State</h4>
+                    <div class="icon">
+                        <i class="bi bi-heart-fill"><span>86415</span></i>
+                        <i class="bi bi-chat-fill"><span>4586</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Subscribe & <br> get special discount</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt neque animi .</p>
+        <div class="input">
+            <input type="text" placeholder="Enter your Email Address">
+            <button>Subscribe</button>
+        </div>
+        <ul>
+            <li>7823 <br> <h6>Years Serving the travel Industry</h6></li>
+            <li>6374 <br><h6>Global <br> Patnership</h6> </li>
+            <li>1496 <br> <h6>Industry Awards since 2022</h6></li>
+            <li>5658 <br> <h6>Subscribe</h6></li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
+    
+    <script>
+const queryString = window.location.search;
+const inputValue = localStorage.getItem('inputValue');
+    console.log("Received input value in explore page: " + inputValue);
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    const capitalizedValue = capitalizeFirstLetter(inputValue);
+    const heading = document.getElementById('heading');
+    if (capitalizedValue) {
+        heading.innerText = `${capitalizedValue}, Best tour Package offers for You`;
+    }
+    </script>
+    
+</body>
+
+</html>
